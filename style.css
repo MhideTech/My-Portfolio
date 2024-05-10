@@ -9,6 +9,7 @@
     font-family: "Outfit", sans-serif;    
     scroll-margin: 110px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 :root{
@@ -123,7 +124,7 @@ nav{
 }
 
 .colored-nav{
-    background: rgba(0,0,0,0.85);
+    background: rgba(2, 50, 95);
 }
 
 nav .logo-toggle{
@@ -248,7 +249,6 @@ nav ul li a{
 .tab-btn--active {
     background-color: var(--primary-Color);
     color: var(--secondary-Color);
-    /* transform: translateY(-15%); */
     transition: all 0.5s ease;
 }
 
@@ -369,8 +369,6 @@ nav ul li a{
     margin: 0px 0px 20px;
     overflow: hidden;
     border-radius: 10px;
-    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) */
-    /* box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 0 4px rgba(0, 0, 0, 0.1); */
     box-shadow: inset 80px 80px 80px rgba(0, 0, 0, 0.9), inset 80px 80px 80px 80px rgba(0, 0, 0, 0.9);
 }
 
@@ -434,6 +432,7 @@ nav ul li a{
 .contact-image{
     width: 48%;
     height: 500px;
+    overflow-y: hidden;
 }
 
 .contact .contact-image img{
@@ -510,6 +509,7 @@ footer ul li a{
     nav{
         display: block;
         padding: 20px 20px;
+        background: rgba(2, 50, 95);
     }
 
     nav .logo-toggle .toggle-btn{
