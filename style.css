@@ -266,10 +266,16 @@ nav ul li a{
     margin: 20px 0px;
     line-height: 25px;
     font-size: 1.1rem;
+    display: flex;
+    align-items: center;
 }
 
 .tab-content--1 ul li i{
     margin: 0px 20px 0px 0px;
+}
+
+.tab-content--1 ul li a{
+    color: black;
 }
 
 .tab-content--2 p{
