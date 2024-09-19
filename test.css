@@ -64,6 +64,9 @@
     font-weight: 500;
     margin: 0 0 20px 0 !important;
 }
+.job-profile-cont ul{
+    list-style: circle !important;
+}
 .job-profile-cont .job-profile .job-profile-inner .timeline-icon.color-none {
     background: #02325f;
     width: 20px;
